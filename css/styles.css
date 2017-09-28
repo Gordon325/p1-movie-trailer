@@ -1,0 +1,13 @@
+/* My CSS */
+body {
+    max-width: 800px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+iframe {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
