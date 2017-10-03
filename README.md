@@ -14,4 +14,8 @@
 
 * Audience:
 * How should they feel?
-* Lots of adjectives: Mysterious, Ominous, Thought-provoking, Confusing, Hoodwinked, Suspenseful, Dark, Victorian, Magic, Scientific, 
+* Lots of adjectives: 
+* Mysterious, Ominous, Thought-provoking, Confusing, Hoodwinked, Suspenseful, Dark, Victorian, Magic, Scientific, 
+
+## Visual Design 
+
