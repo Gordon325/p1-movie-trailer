@@ -1,6 +1,9 @@
+@import 'normalize';
+@import 'mediaelementplayer';
 /* My CSS */
 
-$bg : black; 
+$bg : yellow;
+$c : white;
 
 body {
     background: $bg;
@@ -8,5 +11,8 @@ body {
 }
 body, video {
     max-width: 90%;
+}
+h1 {
+    color: $c;
 }
 /* Lettering */
