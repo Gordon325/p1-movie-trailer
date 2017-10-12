@@ -1,7 +1,11 @@
 /* My CSS */
 
-$bg : cornflowerblue; 
+$bg : black; 
 
 body {
     background: $bg;
+    margin:auto;
+}
+body, video {
+    max-width: 90%;
 }

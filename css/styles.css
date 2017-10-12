@@ -1,6 +1,11 @@
 /* My CSS */
-/* line 5, /Users/gordonsmith/Desktop/web-2-starter/css/styles.scss */
+/* line 5, /Users/gordonsmith/Desktop/p1-movie-trailer/css/styles.scss */
 body {
-  background: cornflowerblue; }
+  background: black;
+  margin: auto; }
+
+/* line 9, /Users/gordonsmith/Desktop/p1-movie-trailer/css/styles.scss */
+body, video {
+  max-width: 90%; }
 
 /*# sourceMappingURL=styles.css.map */
