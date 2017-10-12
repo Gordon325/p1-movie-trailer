@@ -1,13 +1,6 @@
 /* My CSS */
+/* line 5, /Users/gordonsmith/Desktop/web-2-starter/css/styles.scss */
 body {
-    max-width: 800px;
-    margin: auto;
-}
-h1{
-    text-align: center;
-}
-iframe {
-    display: block;
-    max-width: 100%;
-    margin: auto;
-}
+  background: cornflowerblue; }
+
+/*# sourceMappingURL=styles.css.map */
