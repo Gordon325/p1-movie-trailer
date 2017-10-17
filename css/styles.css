@@ -1127,26 +1127,39 @@ body {
 body, video {
   max-width: 85%; }
 
-/* line 16, /Users/gordonsmith/Desktop/p1-movie-trailer/css/styles.scss */
+/* Lettering */
+/* line 19, /Users/gordonsmith/Desktop/p1-movie-trailer/css/styles.scss */
 h1 {
   color: white;
   font-family: 'Fascinate Inline', cursive;
   font-size: 5em;
   text-align: center; }
 
-/* line 23, /Users/gordonsmith/Desktop/p1-movie-trailer/css/styles.scss */
+/* line 26, /Users/gordonsmith/Desktop/p1-movie-trailer/css/styles.scss */
 p {
   font-family: 'EB Garamond', serif;
   color: white; }
 
-/* line 27, /Users/gordonsmith/Desktop/p1-movie-trailer/css/styles.scss */
+/* line 30, /Users/gordonsmith/Desktop/p1-movie-trailer/css/styles.scss */
 .char1, .char3, .char6, .char8, .char10, .char12 {
   color: lightgray; }
 
-/* line 30, /Users/gordonsmith/Desktop/p1-movie-trailer/css/styles.scss */
+/* line 33, /Users/gordonsmith/Desktop/p1-movie-trailer/css/styles.scss */
 .char2, .char5, .char7, .char9, .char11 {
   color: darkgray; }
 
-/* Lettering */
+/* Layout */
+/* line 39, /Users/gordonsmith/Desktop/p1-movie-trailer/css/styles.scss */
+.page {
+  display: flex; }
+
+/* line 43, /Users/gordonsmith/Desktop/p1-movie-trailer/css/styles.scss */
+header,
+section,
+main,
+article,
+aside,
+footer {
+  flex: 1; }
 
 /*# sourceMappingURL=styles.css.map */

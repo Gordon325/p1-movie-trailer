@@ -13,6 +13,9 @@ body {
 body, video {
     max-width: 85%;
 }
+
+/* Lettering */
+
 h1 {
     color: $c;
     font-family: 'Fascinate Inline', cursive;
@@ -30,4 +33,18 @@ p {
 .char2,.char5,.char7,.char9,.char11 {
     color: darkgray;
 }
-/* Lettering */
+
+/* Layout */
+
+.page {
+    display: flex;
+}
+
+header,
+section,
+main,
+article, 
+aside,
+footer {
+    flex: 1;
+}
