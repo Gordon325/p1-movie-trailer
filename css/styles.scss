@@ -1,18 +1,33 @@
 @import 'normalize';
 @import 'mediaelementplayer';
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Fascinate+Inline');
 /* My CSS */
 
 $bg : yellow;
 $c : white;
 
 body {
-    background: $bg;
+    background: black;
     margin:auto;
 }
 body, video {
-    max-width: 90%;
+    max-width: 85%;
 }
 h1 {
     color: $c;
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 5em;
+    text-align: center;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    color: $c;
+}
+.char1,.char3,.char6,.char8,.char10,.char12 {
+    color: lightgray;
+}
+.char2,.char5,.char7,.char9,.char11 {
+    color: darkgray;
 }
 /* Lettering */
