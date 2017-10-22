@@ -6,6 +6,18 @@
        display: block;
     }
     
+        // Curtain all the way up //
+    
+    .curtain2 {
+  position: absolute;
+  height: 100vh;
+width: 100vw;
+  top: -150%;
+    left: 0;
+  z-index: 1;
+  -webkit-transition: top 5s ease-in-out;
+}
+    
   /* Diagnostic Styling. Delete When Done. */
   body:before {
        background: yellow;
@@ -30,6 +42,18 @@
         width: 50%;
     }
     
+        // Curtain all the way up //
+    
+    .curtain2 {
+  position: absolute;
+  height: 100vh;
+width: 100vw;
+  top: -150%;
+    left: 0;
+  z-index: 1;
+  -webkit-transition: top 5s ease-in-out;
+}
+    
   /* Diagnostic Styling. Delete When Done. */
   body:before {
        background: yellow;
@@ -48,6 +72,15 @@
         width: 75%;
     } 
     
+    .curtain2 {
+  position: absolute;
+  height: 100vh;
+width: 100vw;
+  top: -99%;
+    left: 0;
+  z-index: 1;
+  -webkit-transition: top 5s ease-in-out;
+}
     
   /* Diagnostic Styling. Delete When Done. */
   body:before {
