@@ -1,9 +1,4 @@
-// My Scripts
-// Media Element Player
-$('video').mediaelementplayer();
-//Lettering
-$('h1').lettering();
-//Curtain
+//curtain raise
 function classToggle() {
     this.classList.toggle('curtain');
     this.classList.toggle('curtain2');
