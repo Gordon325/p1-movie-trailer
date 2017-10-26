@@ -18,11 +18,18 @@ width: 100vw;
   -webkit-transition: top 5s ease-in-out;
 }
     
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Mobile Size";
-  }
+#title {
+    font-size: 4em;
+}
+
+    #description, aside {
+margin: 0;
+margin-bottom: 15px;
+        font-size: 1em;
+    }
+    .synopsis, .cast {
+        font-size:  2em;
+    }
     
 }
 
@@ -54,11 +61,32 @@ width: 100vw;
   -webkit-transition: top 5s ease-in-out;
 }
     
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Tablet Size";
-  }
+#title {
+    font-size: 6em;
+}
+
+
+    .synopsis, .cast {
+        font-size:  2em;
+    }
+    .synopsis, .cast {
+    margin-top: 0 !important;
+    margin-bottom: 5px;
+    font-size: 2.8em;
+    text-align: left;
+    position: relative;
+}
+
+aside {
+    margin-left: 15px;
+    font-size: 1.1em;
+    background: rgba(0, 0, 0, .2);
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border: 1px dotted rgba(0, 0, 0, .7);
+}
 
 }
 
@@ -82,10 +110,32 @@ width: 100vw;
   -webkit-transition: top 5s ease-in-out;
 }
     
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Desktop Size";
-  }
 
+#title {
+    font-size: 8em;
+}
+
+
+    .synopsis, .cast {
+        font-size:  2em;
+    }
+    
+    .synopsis, .cast {
+    margin-top: 0 !important;
+    margin-bottom: 5px;
+    font-size: 2.8em;
+    text-align: left;
+    position: relative;
+}
+
+aside {
+    margin-left: 15px;
+    font-size: 1.1em;
+    background: rgba(0, 0, 0, .2);
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border: 1px dotted rgba(0, 0, 0, .7);
+}
 }

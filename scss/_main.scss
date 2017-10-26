@@ -1,13 +1,15 @@
 /* My CSS */
 
 $bg : black;
-$c : white;
+$c : rgba(110, 198, 229, .4);
+$d : rgba(110, 198, 229, .8);
 
 
 
 video {
     max-width: 100%;
     width: 100%;
+    border-bottom: 1px dotted rgba(110, 198, 229, .3);
 }
 body {
     max-width: 85%;
@@ -35,12 +37,13 @@ h1 {
     font-family: 'Lobster Two', cursive;
 }
 #title {
-    font-size: 4em;
+    font-size: 7em;
 }
 
 p {
-    color: $c;
+    color: white;
     font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
 }
 
 /* Layout */
@@ -106,6 +109,9 @@ width: 100vw;
     padding-bottom: 20px;
     border: 1px dotted rgba(0, 0, 0, .7);
     margin: 0;
+    line-height: 1.4em;
+    margin-right: 15px;
+    border-bottom: 1px dotted rgba(110, 198, 229, .3);
 }
 
 #copyright {
@@ -113,6 +119,55 @@ width: 100vw;
     text-align: center;
 }
 
-.char1, .char2, .char3 {
+.char1, .char2, .char3, .char5, .char6, .char7, .char8, .char9, .char10, .char11, .char12 {
 position: relative;
+}
+
+.castImages {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px dotted rgba(110, 198, 229, .3);
+}
+
+.act1,.act2,.act3,.act4,.act5,.act6 {
+align-self: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.synopsis, .cast {
+    margin-top: 0 !important;
+    margin-bottom: 30px !important;
+    font-size: 2.8em;
+    text-align: left;
+    position: relative;
+    border-bottom: 1px dotted rgba(110, 198, 229, .3);
+    color: white;
+}
+
+
+aside {
+    font-size: 1.1em;
+    background: rgba(0, 0, 0, .2);
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border: 1px dotted rgba(0, 0, 0, .7);
+    margin: 0;
+    line-height: 1.4em;
+    margin-right: 15px;
+    border-bottom: 1px dotted rgba(110, 198, 229, .3);
+}
+
+.mejs__time {
+    
+color: #6ec6e5;
+}
+.mejs__time-total, .mejs__time-loaded {
+background: rgba(110, 198, 229, .3)
 }
