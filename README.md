@@ -20,3 +20,4 @@ Adults, just about everyone
 
 ## Visual Design 
 
+[Image Inspirtations](https://github-render.s3.amazonaws.com/prod/960c2e8e94c5e752cef321eefd4bc109-render.png?AWSAccessKeyId=AKIAJILR36AMCOMBK3MQ&Signature=oPV/nXYCTtESDxmA3O%2BL4Wta4WU%3D&Expires=1509048011)
