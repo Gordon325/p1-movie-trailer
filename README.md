@@ -13,6 +13,7 @@
 ## Art Direction
 
 * Audience:
+Adults, just about everyone
 * How should they feel?
 * Lots of adjectives: 
 * Mysterious, Ominous, Thought-provoking, Confusing, Hoodwinked, Suspenseful, Dark, Victorian, Magic, Scientific, 
