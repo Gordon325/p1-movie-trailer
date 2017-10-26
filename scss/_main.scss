@@ -42,8 +42,10 @@ h1 {
 
 p {
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     margin-top: 20px;
+    font-weight: 200;
+    font-size: 1.2em;
 }
 
 /* Layout */
@@ -176,8 +178,12 @@ aside {
     
 color: #bc9b1b;
 }
-.mejs__time-total, .mejs__time-loaded {
+.mejs__time-total,.mejs__time-current {
 background: $d;
+}
+
+.mejs__time-loaded {
+background: rgba(188, 155, 27, .1);
 }
 
 .rating {
