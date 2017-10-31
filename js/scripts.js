@@ -14,13 +14,14 @@ document.querySelector('.curtain').addEventListener('click', classToggle);
 
 
 // The replaces the wrapper when clicking the curtain page, this allows all content to stay hidden until the curtain begins to rise
+// script found on Jfiddle.net submitted by a forum user, edited to work with my code.
 $(document).ready(function() {
 	$('.curtain').on('click', function(){
 		$('.wrapper').toggle();
 	});
 });
 
-
+// script found on Jfiddle.net submitted by a forum user, edited to work with my code.
 // Remove "click to start" box on curtain page
 $(document).ready(function() {
 	$('.curtain').on('click', function(){
@@ -28,7 +29,7 @@ $(document).ready(function() {
 	});
 });
 
-
+// script found on Jfiddle.net submitted by a forum user to make a balloon float, edited to work with my lettering code.
 //Floating Letters for the title
    var float = $('#title .char1');
    var float2 = $('#title .char2');
