@@ -1,4 +1,4 @@
-//curtain raise
+//curtain raise, script found on Jfiddle.com submitted by anon user
 function classToggle() {
     this.classList.toggle('curtain');
     this.classList.toggle('curtain2');
